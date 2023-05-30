@@ -1,12 +1,16 @@
+#tt{
+    font-size: 50px;
+}
+
 nav {
     background-color: #333;
     height: 80px;
   }
-  nav ul {
+  /* nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+  } */
   nav li {
     float: left;
     margin-left: 10%;
@@ -70,7 +74,7 @@ nav {
 }
 .gadget1{
   background-color: #806386;
-  margin-left: 10%;
+  margin-left: 1%;
   margin-right: 10%;
 }
 #gadget2{
@@ -80,7 +84,7 @@ nav {
 }
 .trusted{
   margin-top: -35%;
-  margin-left: 15%;
+  margin-left: 1%;
 }
 .trusted h1{
   font-size: 80px;
@@ -114,25 +118,27 @@ nav {
   color:white
 }
 #pic{
-  margin-left: 10%;
+  margin-left: -5%;
   /* margin-right: 10%; */
   width: 1321px;
   margin-top: 10%;
 }
-.twoie{
-}
+
 #newpic{
 margin-left: 10%;
-width: 620px;
+width: 420px;
 height: 490px;
 }
 #pro{
 margin-left: 5%;
-width: 620px;
+width: 420px;
 height: 490px;
 }
+.the2{
+    margin-top: 40px;
+}
 #thadi{
-  margin-left: 10%;
+  margin-left: -5%;
   width: 1320px;
 }
 .cillum{
@@ -164,7 +170,7 @@ footer{
   font-size: 50px;
 }
 #line{
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top: 10%;
 }
 .sabi button{
@@ -179,6 +185,45 @@ footer{
   cursor: pointer;
 }
 
+
+@media only screen and (max-width: 920px){
+    nav li {
+    float: left;
+    margin-left: 1%;
+  }
+  .Search{
+    margin-left: -10px;
+  }
+  #gadget2{
+    width: 250px;
+    margin-left: -50px;
+  }
+  #pps{
+    width: 100px;
+  }
+  #tt{
+    margin-top: 140px;
+  }
+  #pic{
+    width: 10px;
+  }
+  #newpic{
+    width: 250px;
+  }
+  #pro{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  #thadi{
+    width: 300px;
+  }
+  .monials{
+    margin-left: -5px;
+    width: 150px;
+  }
+
+}
 
 
 
